@@ -102,7 +102,7 @@ function searchData() {
   for (let i = 0; i < product.length; i++) {
     if (data == "") {
       location.replace("./index.html");
-    }else if (product[i].name.toLowerCase().includes(data)) {
+    } else if (product[i].name.toLowerCase().includes(data)) {
       Show_div += `<div class="col-4">
     <img src=${product[i].img} width="100%" alt="" /><br /><br />
     <h4>${product[i].name}</h4>
